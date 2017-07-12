@@ -1,0 +1,34 @@
+{
+  "name": "comp308-assignment1",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "Jonathan Lee",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/822937603/COMP308-w2017-Assignment1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/822937603/COMP308-w2017-Assignment1/issues"
+  },
+  "homepage": "https://github.com/822937603/COMP308-w2017-Assignment1#readme",
+  "description": ""
+}
