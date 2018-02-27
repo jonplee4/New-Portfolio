@@ -147,3 +147,17 @@ body{
 .nav-header{
   font-size: 250%;
 }
+
+.my-summary{
+    position: absolute;
+    top: 20px;
+    left: 560px;
+    font-size: 210%;
+}
+
+.home-page-picture-info{
+  position: absolute;
+  bottom: 80px;
+  right: 500px;
+  font-size: 190%;
+}
