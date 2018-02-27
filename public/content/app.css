@@ -8,9 +8,9 @@
 /*Font*/
 @font-face {
   font-family: 'MainFont';
-  src: url('fonts/Fixedsys500c.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Fixedsys500c.eot'); /* IE9 Compat Modes */ 
   src: url('fonts/Fixedsys500c.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/Fixedsys500c.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Fixedsys500c.ttf')  format('truetype'), /* Safari, Android, iOS 
        url('fonts/Fixedsys500c.svg#FixedsysTTF') format('svg'); /* Legacy iOS */
 }
 
@@ -50,12 +50,13 @@ body{
 .sidemenu{
   display: block;
   width: 100%;
-  background-color: #BBBBBB;
+  background-color: rgb(100, 100, 100);
   color: #0A0101;
   border: 1px solid #0A0101;
-  margin-top: .3em;
-  padding: .2em;
-  padding-left: .5em;
+  list-style-type: none;
+    padding: .2em;
+    padding-left: .5em;
+    overflow: hidden;
   list-style-type: none
 }
 .sidemenu hr{
@@ -65,23 +66,34 @@ body{
   font-size: 250%;
 }
 
+.sidemenu li{
+  float: left;
+}
+
 .sidemenu li.active a{
   background-color: #00AAAA;
   color: #FDFEF9;
 }
 
 .sidemenu a{
-  background-color: #BBBBBB;
+  background-color: rgb(100, 100, 100);
   color: #0A0101;
   text-decoration: none;
+  text-align: center;
   display: block;
+  padding: 14px 16px;
   margin: 0;
-  font-size: 250%;
+  font-size: 200%;
 }
 .sidemenu li a:hover{
   background-color: #0A0101;
   color: #BBBBBB;
-  font-size: 250%;
+  font-size: 200%;
+  padding: 14px 16px;
+}
+
+.sidemenu li.social-icon{
+  float:right;
 }
 
 .main-content{
