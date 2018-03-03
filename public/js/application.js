@@ -2,7 +2,7 @@
 
   Uses the the typeIt jQuery plugin (http://macarthur.me/typeit/)
   Also sets the class on the sidemenu
-*/
+
 
 $(()=>{
 
@@ -61,4 +61,4 @@ $('#example1').typeIt({
   }
 
 
-})
+}) */

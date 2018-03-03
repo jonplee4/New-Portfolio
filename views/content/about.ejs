@@ -7,7 +7,9 @@
 
 <% include ../partials/header.ejs %>
 
+
     <!-- MAIN CONTENT -->
+
     <div class="about-container">
       <div class="row">
         <div class="col-md-offset-0 col-md-10">
@@ -18,40 +20,43 @@
               <br>
               <br>
 
-              <div class="about-carousel-container"> 
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                  </ol>
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
               
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <img src="assets/Services.jpg" alt="Los Angeles" style="width:100%;">
-                    </div>
-              
-                    <div class="item">
-                      <img src="assets/Smokebomb.png" alt="Chicago" style="width:100%;">
-                    </div>
-                  
-                    <div class="item">
-                      <img src="assets/Toronto-Logo-jpeg.jpg" alt="New york" style="width:100%;">
-                    </div>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <a name=about href="/about"><img src="assets/Smokebomb.png"></a>
                   </div>
               
-                  <!-- Left and right controls -->
-                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
+                  <div class="item">
+                    <a name=project href="/projects"><img src="assets\Smokebomb.png"></a>
+                  </div>
+              
+                  <div class="item">
+                    <a name=project href="/services"><img src="assets/Smokebomb.png"></a>
+                  </div>
+              
+                  <div class="item">
+                    <a name=project href="/contact"><img src="assets/Smokebomb.png"></a>
+                  </div>
                 </div>
+              
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
 
               <br>
@@ -60,19 +65,23 @@
                 Welcome to the portfolio of Jonathan Lee! 
                 <br>
                 I'm a Game Developer, Game Tester and Game Design Writer.
-                <br>
-                On this site you can take a look at my resume 
-                <br>
-                and some projects I have done.
                 <br><br>
-                I am a Graduate of Centennial College in Toronto with an Advanced Diploma in Software Engineering
-                Interactive Gaming. I previously worked at SmokeBomb Entertainment developing prototype games
-                for interactive hardware using the Unity Game Engine with C# programming.
+                I am a Graduate of Centennial College in Toronto with an
+                <br>
+                Advanced Diploma in Software Engineering Interactive Gaming.
+                <br>
+                I previously worked at SmokeBomb Entertainment developing
+                <br>
+                prototype games for interactive hardware using the Unity Game
+                <br>
+                Engine with C# programming.
+
                 <br><br>
                 I am persistant, creative and innovative.
                 <br><br>
-                I would love to talk about job opportunities, projects that I have worked on, 
-                game industry trends or anything you have your thoughts on.
+                I believe I am an asset to any organization.
+                You can click on the links in the header to look at my portfolio and resume.
+                I am open to any and all opportunities.
               </p>
           </body>
           <!-- TAB AND PILLS - TAB NAVIGATION
