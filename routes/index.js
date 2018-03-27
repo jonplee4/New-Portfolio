@@ -47,4 +47,11 @@ router.get('/contact', (req, res, next) => {
    });
 });
 
+/* GET devilsCauseway page. */
+router.get('/devilsCauseway', (req, res, next) => {
+  res.render('content/devilsCauseway', {
+    title: 'Devils Causeway Demo'
+   });
+});
+
 module.exports = router;
