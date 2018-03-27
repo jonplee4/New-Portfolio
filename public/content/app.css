@@ -195,3 +195,11 @@ div[id='myCarousel']{
 .carousel-indicators .active {
   background-color: black;
 }
+
+div.resume-container{
+  background-color: rgb(34, 34, 34);
+    height: 810px;
+    width: 1135px;
+    padding-left: 180px;
+    padding-top: 40px;
+}
