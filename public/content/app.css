@@ -203,3 +203,11 @@ div.resume-container{
     padding-left: 180px;
     padding-top: 40px;
 }
+
+div.projects-container{
+  background-color: rgb(34, 34, 34);
+    height: 900px;
+    width: 1135px;
+    padding-left: 180px;
+    padding-top: 40px;
+}

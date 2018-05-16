@@ -2,26 +2,126 @@
      File Name: index.ejs
      Website Name: https://jonathanleeportfolio.herokuapp.com/
      Description: handles HTML for the homepage page
+
+     Change homepage to about page
+     change about page courasel to castle first
+
+    smaller picture of slideshow picture to explain
+
+change header menu to close tab
+
+summer jobs heading
+
+collegues respelling
+
+add more in profile about web development - javascript
+
+education first
+
+resume highlights
 -->
 
 <% include ../partials/header.ejs %>
 
+<!-- MAIN CONTENT -->
+
+<div class="about-container">
+  <div class="row">
+    <div class="col-md-offset-0 col-md-10">
+
+      <body>
+
+          <p style="font-size:30px; color:rgb(210,210,210)"><b>HELLO WORLD!</b><p>
+          <br>
+          <br>
+
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators 
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol> -->
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <a name=about href="/projects"><img src="assets/About_AncientScore.png"></a>
+              </div>
+          
+              <div class="item">
+                <a name=project href="/projects"><img src="assets/About_FurVSFlowers.png"></a>
+              </div>
+          
+              <div class="item">
+                <a name=project href="/projects"><img src="assets/About_GameJam.png"></a>
+              </div>
+          
+              <div class="item">
+                <a name=project href="/projects"><img src="assets/About_DumbLuckStudios.png"></a>
+              </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <br>
+          <br>
+          <p style="font-size:16px;">
+            Welcome to the portfolio of Jonathan Lee! 
+            <br>
+            I'm a Game Developer, Game Tester and Game Design Writer.
+            <br><br>
+            I am a Graduate of Centennial College in Toronto with an
+            <br>
+            Advanced Diploma in Software Engineering Interactive Gaming.
+            <br>
+            I previously worked at SmokeBomb Entertainment developing
+            <br>
+            prototype games for interactive hardware using the Unity Game
+            <br>
+            Engine with C# programming.
+            <br>
+            I was part of a startup company, Dumb Luck Studios.
+            <br>
+            We were on track to release our first 2D platforming game
+            <br>
+            <i>Power Surge</i> before its closure.
+
+            <br><br>
+            I am persistant, creative and innovative.
+            <br><br>
+            I believe I am an asset to any organization.
+            You can click on the links in the header to look at my <a href="/projects">projects</a> and <a href="/services">resume.</a>
+            I am open to any and all opportunities.
+          </p>
+      </body>
+<!--
 <body>
   <div class="index-container">
   <img src="assets/HomePagePowerSurge.gif" width="1135" height="600" alt="DLS Presents: Power Surge">
-  <!-- <div class="my-summary">JONATHAN LEE
+   <div class="my-summary">JONATHAN LEE
     <br>
     GAME DEVELOPER
     <br>
     GAME TESTER
     <br>
     TECHNICAL WRITER
-  </div> -->
+  </div> 
   <div class="home-page-picture-info">
     Gif from Power Surge
   </div>
   </div>
-</body>
+</body>-->
 
     <!-- MAIN CONTENT 
     <div class="index-container">
@@ -42,7 +142,9 @@
 
       </div>
     </div> -->
-    
+  </div>
+</div>
+</div>
       
 <% include ../partials/footer.ejs %>
 
