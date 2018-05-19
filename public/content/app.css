@@ -159,7 +159,9 @@ body{
 }
 
 div.about-container{
-    background-color: rgb(34, 34, 34);
+    /*background-color: rgb(34, 34, 34);*/
+    background-color: #D2D2D2;
+    color: #0A0101;
     height: 610px;
     width: 1135px;
     padding-left: 180px;
@@ -169,7 +171,8 @@ div.about-container{
 div[id='myCarousel']{
   position: absolute;
     top: 50px;
-    right: -60px;
+    right: -100px;
+    /*right: -60px;*/
     height: 400px;
     width: 400px;
 }
@@ -197,7 +200,9 @@ div[id='myCarousel']{
 }
 
 div.resume-container{
-  background-color: rgb(34, 34, 34);
+    /*background-color: rgb(34, 34, 34);*/
+    background-color: #D2D2D2;
+    color: #0A0101;
     height: 810px;
     width: 1135px;
     padding-left: 180px;
@@ -205,9 +210,13 @@ div.resume-container{
 }
 
 div.projects-container{
-  background-color: rgb(34, 34, 34);
-    height: 900px;
+    /*background-color: rgb(34, 34, 34); rgb 210,210,210*/
+    background-color: #D2D2D2;
+    color: #0A0101;
+    height: 1300px;
     width: 1135px;
     padding-left: 180px;
     padding-top: 40px;
 }
+
+
