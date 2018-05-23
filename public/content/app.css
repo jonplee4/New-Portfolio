@@ -213,7 +213,7 @@ div.projects-container{
     /*background-color: rgb(34, 34, 34); rgb 210,210,210*/
     background-color: #D2D2D2;
     color: #0A0101;
-    height: 1900px;
+    height: 3400px;
     width: 1135px;
     padding-left: 180px;
     padding-top: 40px;
@@ -237,4 +237,32 @@ img.TOJam_Thumb{
   margin-right: auto;
 }
 
+img.DLS_Logo_PowerSurgeThumb{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+img.About_GameJam{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.About_AncientScore{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.About_FurVSFlowers{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.BreakTheBlockadeThumb{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
