@@ -213,10 +213,28 @@ div.projects-container{
     /*background-color: rgb(34, 34, 34); rgb 210,210,210*/
     background-color: #D2D2D2;
     color: #0A0101;
-    height: 1300px;
+    height: 1900px;
     width: 1135px;
     padding-left: 180px;
     padding-top: 40px;
+}
+
+img.DLS_LogoThumbTransparent {
+  vertical-align: text-top;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.PowerSurgeThumb {
+  vertical-align: text-top;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.TOJam_Thumb{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
