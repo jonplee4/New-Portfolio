@@ -164,14 +164,14 @@ div.about-container{
     color: #0A0101;
     height: 610px;
     width: 1135px;
-    padding-left: 180px;
+    padding-left: 100px;
     padding-top: 40px;
 }
 
 div[id='myCarousel']{
   position: absolute;
     top: 50px;
-    right: -100px;
+    right: -50px;
     /*right: -60px;*/
     height: 400px;
     width: 400px;
@@ -203,7 +203,7 @@ div.resume-container{
     /*background-color: rgb(34, 34, 34);*/
     background-color: #D2D2D2;
     color: #0A0101;
-    height: 810px;
+    height: 850px;
     width: 1135px;
     padding-left: 180px;
     padding-top: 40px;
