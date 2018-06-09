@@ -54,4 +54,10 @@ router.get('/devilsCauseway', (req, res, next) => {
    });
 });
 
+router.get('/IWantTheBoomBoom', (req, res, next) => {
+  res.render('content/IWantTheBoomBoom', {
+    title: 'I Want The BoomBoom Demo'
+   });
+});
+
 module.exports = router;

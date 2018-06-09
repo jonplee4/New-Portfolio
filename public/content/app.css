@@ -219,6 +219,11 @@ div.projects-container{
     padding-top: 40px;
 }
 
+div.projects-container a{
+  display:inline-block;
+  transform: translate(38%, 0%);
+}
+
 img.DLS_LogoThumbTransparent {
   vertical-align: text-top;
   margin-left: auto;
@@ -232,7 +237,7 @@ img.PowerSurgeThumb {
 }
 
 img.TOJam_Thumb{
-  display: block;
+  display:block;
   margin-left: auto;
   margin-right: auto;
 }

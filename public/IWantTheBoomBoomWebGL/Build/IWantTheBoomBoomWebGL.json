@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "I want the BoomBoom",
+"dataUrl": "IWantTheBoomBoomWebGL.data.unityweb",
+"asmCodeUrl": "IWantTheBoomBoomWebGL.asm.code.unityweb",
+"asmMemoryUrl": "IWantTheBoomBoomWebGL.asm.memory.unityweb",
+"asmFrameworkUrl": "IWantTheBoomBoomWebGL.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
