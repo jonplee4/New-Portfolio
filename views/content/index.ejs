@@ -2,40 +2,7 @@
      File Name: index.ejs
      Website Name: https://jonathanleeportfolio.herokuapp.com/
      Description: handles HTML for the homepage page
-
-     Change homepage to about page
-     change about page courasel to castle first
-
-    smaller picture of slideshow picture to explain
-
-change header menu to close tab
-
-summer jobs heading
-
-collegues respelling
-
-add more in profile about web development - javascript
-
-education first
-
-resume highlights
-
-rgb 210,210,210
-
-add random banner on the back of the header
-and the navbar
-
-move text/slideshow more to the left
-
-maybe keep similar to home in projects
-side picture and text
-
-make game screen smaller
-
-close tab to exit in the grey navbar
-
-Download full resume at bottom as well
--->
+!-->
 
 <% include ../partials/header.ejs %>
 
@@ -46,122 +13,77 @@ Download full resume at bottom as well
 
       <body>
 
-          <p style="font-size:30px; color:#0A0101"><b>HELLO WORLD!</b><p>
-          <br>
-          <br>
+        <p style="font-size:30px; color:#0A0101"><b>HELLO WORLD!</b>
+          <p>
+            <br>
+            <br>
 
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators 
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-              <li data-target="#myCarousel" data-slide-to="3"></li>
-            </ol> -->
-          
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <a name=about href="/projects"><img src="assets/About_AncientScore.png"></a>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <a name=about href="/projects"><img src="assets/About_AncientScore.png"></a>
+                </div>
+
+                <div class="item">
+                  <a name=project href="/projects"><img src="assets/About_FurVSFlowers.png"></a>
+                </div>
+
+                <div class="item">
+                  <a name=project href="/projects"><img src="assets/About_GameJam.png"></a>
+                </div>
+
+                <div class="item">
+                  <a name=project href="/projects"><img src="assets/About_DumbLuckStudios.png"></a>
+                </div>
               </div>
-          
-              <div class="item">
-                <a name=project href="/projects"><img src="assets/About_FurVSFlowers.png"></a>
-              </div>
-          
-              <div class="item">
-                <a name=project href="/projects"><img src="assets/About_GameJam.png"></a>
-              </div>
-          
-              <div class="item">
-                <a name=project href="/projects"><img src="assets/About_DumbLuckStudios.png"></a>
-              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
-          
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
 
-          <br>
-          <br>
-          <p style="font-size:16px; text-align:left;">
-            Welcome to the portfolio of Jonathan Lee! 
             <br>
-            I'm a Game Developer, Game Tester and Game Design Writer.
-            <br><br>
-            I am a Graduate of Centennial College in Toronto with an
             <br>
-            Advanced Diploma in Software Engineering Interactive Gaming.
-            <br>
-            I previously worked at SmokeBomb Entertainment developing
-            <br>
-            prototype games for interactive hardware using the Unity Game
-            <br>
-            Engine with C# programming.
-            <br>
-            I was part of a startup company, Dumb Luck Studios.
-            <br>
-            We were on track to release our first 2D platforming game
-            <br>
-            <i>Power Surge</i> before its closure.
+            <p style="font-size:16px; text-align:left;">
+              Welcome to the portfolio of Jonathan Lee!
+              <br>
+              I'm a Game Developer, Game Tester and Game Design Writer.
+              <br><br>
+              I am a Graduate of Centennial College in Toronto with an
+              <br>
+              Advanced Diploma in Software Engineering Interactive Gaming.
+              <br>
+              I previously worked at SmokeBomb Entertainment developing
+              <br>
+              prototype games for interactive hardware using the Unity Game
+              <br>
+              Engine with C# programming.
+              <br>
+              I was part of a startup company, Dumb Luck Studios.
+              <br>
+              We were on track to release our first 2D platforming game
+              <br>
+              <i>Power Surge</i> before its closure.
 
-            <br><br>
-            I am persistent, creative and innovative.
-            <br><br>
-            <br>
-            I believe I am an asset to any organization.
-            You can click on the links in the header to look at my <a href="/projects">projects</a> and <a href="/services">resume.</a>
-            I am open to any and all opportunities.
-          </p>
+              <br><br>
+              I am persistent, creative and innovative.
+              <br><br>
+              <br>
+              I believe I am an asset to any organization.
+              You can click on the links in the header to look at my <a href="/projects">projects</a> and <a href="/services">resume.</a>
+              I am open to any and all opportunities.
+            </p>
       </body>
-<!--
-<body>
-  <div class="index-container">
-  <img src="assets/HomePagePowerSurge.gif" width="1135" height="600" alt="DLS Presents: Power Surge">
-   <div class="my-summary">JONATHAN LEE
-    <br>
-    GAME DEVELOPER
-    <br>
-    GAME TESTER
-    <br>
-    TECHNICAL WRITER
-  </div> 
-  <div class="home-page-picture-info">
-    Gif from Power Surge
-  </div>
-  </div>
-</body>-->
-
-    <!-- MAIN CONTENT 
-    <div class="index-container">
-      <div class="row">
-
-        <p style="font-size:29px;"> Software Engineering  <br> Specializing in Gaming </p>
-              
-              <br>
-
-              <br>
-
-              <p style="font-size:27px;"> Game Developer <br> Smokebomb Entertainment 2015 <br> Game prototype development.</p>
-              
-              <br>
-
-              <p style="font-size:29px;"> Centennial College
-              Software Engineering Technology  <br> Interactive Gaming <br> Toronto, Ontario, Canada (2014-2017) </p>
-
-      </div>
-    </div> -->
+    </div>
   </div>
 </div>
-</div>
-      
+
 <% include ../partials/footer.ejs %>
-
-

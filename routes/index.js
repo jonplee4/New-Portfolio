@@ -60,4 +60,10 @@ router.get('/IWantTheBoomBoom', (req, res, next) => {
    });
 });
 
+router.get('/WebProjects', (req, res, next) => {
+  res.render('content/webProjects', {
+    title: 'Web Projects'
+   });
+});
+
 module.exports = router;

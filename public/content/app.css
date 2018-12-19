@@ -224,6 +224,15 @@ div.projects-container a{
   transform: translate(38%, 0%);
 }
 
+div.webProjects-container{
+  background-color: #D2D2D2;
+    color: #0A0101;
+    height: 1000px;
+    width: 1135px;
+    padding-left: 180px;
+    padding-top: 40px;
+}
+
 img.DLS_LogoThumbTransparent {
   vertical-align: text-top;
   margin-left: auto;
@@ -271,3 +280,4 @@ img.BreakTheBlockadeThumb{
   margin-left: auto;
   margin-right: auto;
 }
+
