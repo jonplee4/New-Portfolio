@@ -281,3 +281,19 @@ img.BreakTheBlockadeThumb{
   margin-right: auto;
 }
 
+.webColumn{
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px;
+}
+
+.webRow{
+  width: 850px;
+}
+
+.webRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
