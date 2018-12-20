@@ -210,18 +210,12 @@ div.resume-container{
 }
 
 div.projects-container{
-    /*background-color: rgb(34, 34, 34); rgb 210,210,210*/
-    background-color: #D2D2D2;
-    color: #0A0101;
-    height: 3400px;
-    width: 1135px;
-    padding-left: 180px;
-    padding-top: 40px;
-}
-
-div.projects-container a{
-  display:inline-block;
-  transform: translate(38%, 0%);
+  background-color: #D2D2D2;
+  color: #0A0101;
+  height: 2000px;
+  width: 1135px;
+  padding-left: 180px;
+  padding-top: 40px;
 }
 
 div.webProjects-container{
@@ -246,9 +240,8 @@ img.PowerSurgeThumb {
 }
 
 img.TOJam_Thumb{
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
+  height: 220px;
+  width: 220px;
 }
 
 img.DLS_Logo_PowerSurgeThumb{
@@ -293,6 +286,23 @@ img.BreakTheBlockadeThumb{
 }
 
 .webRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gameColumn{
+  float: left;
+  width: 40%;
+  padding: 30px;
+  height: 300px;
+}
+
+.gameRow{
+  width: 1000px;
+}
+
+.gameRow:after {
   content: "";
   display: table;
   clear: both;
