@@ -66,4 +66,17 @@ router.get('/WebProjects', (req, res, next) => {
    });
 });
 
+router.get('/freeCodeCampProjects', (req, res, next) => {
+  res.render('content/freeCodeCampProjects', {
+    title: 'Free Code Camp Projects'
+   });
+});
+
+router.get('/tributePage', (req, res, next) => {
+  res.render('content/tributePage', {
+    title: 'Jane McGonigal Tribute Page'
+   });
+});
+
+
 module.exports = router;
