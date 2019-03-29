@@ -35,12 +35,14 @@
 }
 
 #tribute-info{
-    background-color: greenyellow;
+    background-color: #4ABDAC;
     display: block;
     width: 50%;
-    height: 100px;
-    text-align: center;
+    height: 450px;
+    text-align: left;
+    font-size: 20px;
     float: right;
+    color: #DFDCE3;
 }
 
 #image{
@@ -55,4 +57,5 @@
 #img-caption{
     font-size: 15px;
     padding-top: 2%;
+    color: #DFDCE3;
 }
