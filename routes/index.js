@@ -78,5 +78,11 @@ router.get('/tributePage', (req, res, next) => {
    });
 });
 
+router.get('/surveyPage', (req, res, next) => {
+  res.render('content/surveyPage', {
+    title: 'Game Development Survey Page'
+   });
+});
+
 
 module.exports = router;
