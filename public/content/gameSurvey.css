@@ -29,3 +29,75 @@
     #name{
         font-size: 20px;
     }
+
+    #email-label{
+        color: #D5D5D5;
+        font-size: 25px;
+        padding-left: 20%;
+    }
+
+    #email{
+        font-size: 20px;
+    }
+
+    #number-label{
+        color: #D5D5D5;
+        font-size: 25px;
+        padding-left: 20%;
+    }
+
+    #hoursPlaying{
+        padding-left: 20%;
+    }
+
+    #number{
+        font-size: 20px;
+    }
+
+    #dropdown-label{
+        color: #D5D5D5;
+        font-size: 25px;
+        padding-left: 20%;
+    }
+
+    #consoleBest{
+        padding-left: 20%;
+    }
+
+    #dropdown{
+        font-size: 20px;
+    }
+
+    #radio-label{
+        color: #D5D5D5;
+        font-size: 25px;
+        padding-left: 20%;
+    }
+
+    #radioButtons{
+        color: #D5D5D5;
+        font-size: 20px;
+        padding-left: 20%;
+    }
+
+    #checkbox-label{
+        color: #D5D5D5;
+        font-size: 25px;
+        padding-left: 20%;
+    }
+
+    #checkboxButtons{
+        color: #D5D5D5;
+        font-size: 20px;
+        padding-left: 20%;
+    }
+
+    #commentArea{
+        font-size: 20px;
+        padding-left: 20%;
+    }
+
+    #submitButton{
+        font-size: 20px;
+        padding-left: 20%;
+    }

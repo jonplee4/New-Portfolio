@@ -1,7 +1,7 @@
 <!-- Name: Jonathan Lee #822937603
      File Name: surveyPage.ejs
      Website Name: https://jonathanleeportfolio.herokuapp.com/
-     Description: handles HTML for the Game  Development Survey Page
+     Description: handles HTML for the Game Development Survey Page
 -->
 
 <% include ../partials/header.ejs %>
@@ -10,15 +10,67 @@
 <link rel='stylesheet' href='content/gameSurvey.css' media='screen' />
 
 <div id="main">
-<h1 id="title">Game Development Survey</h1>
-<p id="description">A survey to gain an understanding of respondents gaming habits</p>
+    <h1 id="title">Game Development Survey</h1>
+    <p id="description">A survey to gain an understanding of respondents gaming habits</p>
 
-<form>
-<label id="name-label">Name: </label>
-<input id="name" type="text" placeholder="Jonathan Lee">
-</form>
-<!--http://www.marketest.co.uk/market-research-questionnaire/382/gaming
-https://www.bowenresearch.com/samples.htm-->
+    <form id="survey-form">
+        <label id="name-label">Name: </label>
+        <input id="name" type="text" placeholder="Jonathan Lee" required>
+        <br>
+        <label id="email-label">Email: </label>
+        <input id="email" type="email" placeholder="jonlee50@hotmail.com" required>
+        <br>
+        <label id="number-label">Hours Playing Video Games A Day? </label>
+        <br>
+        <div id="hoursPlaying">
+            <input id="number" type="number" max="24" min="1" placeholder="12345">
+        </div>
+        <br>
+        <label id="dropdown-label">Which Console You Like Best?</label>
+        <br>
+        <div id="consoleBest">
+            <select id="dropdown">
+                <option>Nintendo Switch</option>
+                <option>Xbox One</option>
+                <option>Playstation 4</option>
+            </select>
+        </div>
+        <br>
+        <label id="radio-label">How many games Per Console?</label>
+        <br>
+        <div id="radioButtons">
+            <input type="radio" name="NumberGames" value="1 Game"><b> 1 Game</b>
+            <br>
+            <input type="radio" name="NumberGames" value="2-5 Games"><b> 2-5 Games</b>
+            <br>
+            <input type="radio" name="NumberGames" value="5-10 Games"><b> 5-10 Games</b>
+            <br>
+            <input type="radio" name="NumberGames" value="10 or More Games"><b> 10 or More Games</b>
+        </div>
+        <label id="checkbox-label">What Else Do You Use Console For?</label>
+        <div id="checkboxButtons">
+            <input type="checkbox" name="alternateUse1" value="Watch TV"><b> Watch TV</b>
+            <br>
+            <input type="checkbox" name="alternateUse2" value="Internet"><b> Browse Internet</b>
+            <br>
+            <input type="checkbox" name="alternateUse2" value="Streaming"><b> Streaming Service</b>
+        </div>
+        <br>
+        <div id="commentArea">
+            <textarea rows="4" cols="50" placeholder="Any additional comments?">
+        </textarea>
+        </div>
+        <br>
+        <div id="submitButton">
+            <input id="submit" type="submit" value="Submit">
+        </div>
+    </form>
+
+
+
+
+    <!--http://www.marketest.co.uk/market-research-questionnaire/382/gaming
+https://www.bowenresearch.com/samples.htm -->
 
 </div>
 
