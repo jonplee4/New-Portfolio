@@ -84,5 +84,10 @@ router.get('/surveyPage', (req, res, next) => {
    });
 });
 
+router.get('/productLandingPage', (req, res, next) => {
+  res.render('content/productLandingPage', {
+    title: 'Human Resource Machine Product Landing Page'
+   });
+});
 
 module.exports = router;
